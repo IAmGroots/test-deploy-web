@@ -2,7 +2,7 @@
 // header("Location: view/listUser.php");
 // exit();
 echo("Hello world");
-include_once '../db.php';
+include_once 'db.php';
 function getUsers() {
     global $conn;
     $sql = "SELECT * FROM users";
