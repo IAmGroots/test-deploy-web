@@ -1,6 +1,4 @@
 {
-    "name": "hadi/firstproject",
-    "description": "test",
     "require": {
         "vlucas/phpdotenv": "^5.6"
     }
