@@ -2,14 +2,9 @@
 // header("Location: view/listUser.php");
 // exit();
 echo("Hello world");
-include_once 'db.php';
-function getUsers() {
-    global $conn;
-    $sql = "SELECT * FROM users";
-    return $conn->query($sql);
-}
+include("db.php");
 
-$users = getUsers();
+$users = $conn->query("SELECT * FROM users");
 ?>
 
 <h2>Daftar Pengguna</h2>
